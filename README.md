@@ -14,7 +14,7 @@ Installation and Execution
 Follow these steps to set up and run the program:
 Install the required libraries and packages using the below command:
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev  
-Compile the source code using the below command:
+Compile the source code using the  command:
 gcc dsassign.c -o dsassign -lSDL2 -lSDL2_mixer  
 Run the application using the below command:
 ./dsassign  
@@ -23,6 +23,6 @@ Notes
 Ensure you are running the application on a virtual machine to avoid compatibility issues.
 Modify the code as needed to include additional features or adapt it for dynamic playlist management.
 
-Contributing
+
 Feel free to fork the repository and submit pull requests for improvements or additional features.
 
